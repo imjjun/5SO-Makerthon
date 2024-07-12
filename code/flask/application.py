@@ -171,4 +171,4 @@ def analysis():
     return render_template("index.html", rank01 = rank01, rank11=rank11, rank21=rank21, rank31=rank31, rank41=rank41, rank51=rank51, rank61=rank61, rank71=rank71, rank02 = rank02, rank12=rank12, rank22=rank22, rank32=rank32, rank42=rank42, rank52=rank52, rank62=rank62, rank72=rank72)
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
